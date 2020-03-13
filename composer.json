@@ -1,0 +1,21 @@
+{
+  "name": "aldaflux/player-bundle",
+  "version":"0.0.1",
+  "type": "symfony-bundle",
+  "description": "Player ",
+  "keywords": ["player"],
+  "language":  "php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Antoine LOTZ",
+    }
+  ],
+ "minimum-stability": "stable",
+ "prefer-stable":true,
+   "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
