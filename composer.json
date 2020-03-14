@@ -12,6 +12,10 @@
     }
   ],
  "minimum-stability": "stable",
+ "require": {
+        "symfony/framework-bundle": "^4.2|^5.0",
+       "doctrine/collections": ">=1.0"
+  },
  "prefer-stable":true,
    "extra": {
         "branch-alias": {
