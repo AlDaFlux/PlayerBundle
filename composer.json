@@ -1,6 +1,6 @@
 {
   "name": "aldaflux/player-bundle",
-  "version":"0.1.5",
+  "version":"1.0.0",
   "type": "symfony-bundle",
   "description": "Player ",
   "keywords": ["player"],
@@ -13,9 +13,8 @@
   ],
  "minimum-stability": "stable",
  "require": {
-        "symfony/framework-bundle": "^4.2|^5.0",
-       "doctrine/collections": ">=1.0"
-  },
+        "symfony/framework-bundle": "^4.2|^5.0"  }
+    ,
  "prefer-stable":true,
  "autoload": {
         "psr-4": {
