@@ -22,9 +22,7 @@
 
 
 
-
-@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
-
+ 
 .expand_caret {
     transform: scale(1.6);
     margin-left: 8px;
@@ -71,7 +69,9 @@ button[aria-expanded='false'] > .expand_caret {
 {
     display: inline-block;
     float: right;
+    z-index: 200;
 }
+
 
 #more_controls
 {
@@ -117,13 +117,28 @@ button[aria-expanded='false'] > .expand_caret {
      max-width: 220px;
 /*   border: 1px solid green; */
 }
+    .plyr
+    {
+        z-index: -2;
+    }
+
 @media only screen and (max-width:900px) 
 {
+    
     #player_controls
     {
          max-width: 80px;
     }
 }
+
+@media only screen and (max-width:420px) 
+{
+    .plyr__volume
+    {
+         display: none;
+    }
+}
+
 
 
 
