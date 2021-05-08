@@ -1,3 +1,10 @@
+.plyr__controls 
+{
+    z-index:300;
+    border:1px solid red;
+}
+
+
 .player_json_play , .player_json_enqueue
 {
     cursor: pointer;
@@ -119,7 +126,7 @@ button[aria-expanded='false'] > .expand_caret {
 }
     .plyr
     {
-        z-index: -2;
+        z-index: 10;
     }
 
 @media only screen and (max-width:900px) 
